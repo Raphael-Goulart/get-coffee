@@ -3,6 +3,7 @@
     --cor-de-fundo: #FFFFFF;
     --cor-letra-pricipal: #242424;
     --cor-letra-botao: #FFFFFF;
+    --cor-fundo-botao: #FCA60F;
 }
 
 body {
@@ -60,6 +61,21 @@ header {
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
+}
+
+.quadro_button {
+    position: absolute;
+    width: 290px;
+    height: 58.44px;
+    left: 160px;
+    top: 521.04px;
+    background: var(--cor-fundo-botao);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--cor-letra-botao);
+    border: none;
 }
 
 .quadro_principal img {
