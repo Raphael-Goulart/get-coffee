@@ -78,7 +78,16 @@ header {
     border: none;
 }
 
-.quadro_principal img {
+.quadro_img--redes {
+    position: absolute;
+    width: 105.42px;
+    height: 23.24px;
+    left: 169.1px;
+    top: 611.62px;
+
+}
+
+.quadro_principal--img {
     position: absolute;
     width: 182px;
     height: 305px;
@@ -101,6 +110,14 @@ header {
     left: 1086.87px;
     top: 110px;
 
+}
+
+.rodape {
+    position: absolute;
+    width: 96px;
+    height: 69px;
+    left: 672px;
+    top: 748px;
 }
 
 
