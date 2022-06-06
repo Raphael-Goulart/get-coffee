@@ -1,10 +1,90 @@
 :root {
     --fonte-letra: 'Nunito', sans-serif;
+    --cor-de-fundo: #FFFFFF;
+    --cor-letra-pricipal: #242424;
+    --cor-letra-botao: #FFFFFF;
+}
+
+body {
+    width: 1440px;
+    height: 990px;
+    font-family: var(--fonte-letra);
+    background: var(--cor-de-fundo);
+}
+
+header {
+    width: 1440px;
+    height: 95px;
+    box-shadow: 0px 1px 8px rgba(0, 36, 36, 0.15);
+    background: var(--cor-de-fundo);
 }
 
 .cabecalho_titulo {
-   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 164px;
     width: 1115px;
     height: 95px;
+    
 }
+
+
+.cabecalho_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 281px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.quadro_principal {
+    width: 1115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 164px;
+    margin-top: 203px;
+}
+
+.quadro_principal div {
+    width: 557px;
+}
+
+.quadro_principal h1 {
+    position: absolute;
+    width: 527px;
+    height: 143.17px;
+    left: 160px;
+    top: 298px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.quadro_principal img {
+    position: absolute;
+    width: 182px;
+    height: 305px;
+    left: 1034px;
+    top: 283px;
+}
+
+.quadro_img--1 {
+    position: absolute;
+    width: 479.39px;
+    height: 552.14px;
+    left: -143px;
+    top: 267px;
+}
+
+.quadro_img--2 {
+    position: absolute;
+    width: 519.83px;
+    height: 489.39px;
+    left: 1086.87px;
+    top: 110px;
+
+}
+
 
