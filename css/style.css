@@ -101,18 +101,23 @@ main {
 
 .quadro_img--1 {
     position: absolute;
-    width: 479.39px;
-    height: 552.14px;
+    width: 100%;
+    height: 100vh;
     left: -143px;
     top: 267px;
+    background: url(../assets/Vector\ \(1\).svg);
+    background-repeat: no-repeat;
 }
 
 .quadro_img--2 {
     position: absolute;
-    width: 519.83px;
-    height: 489.39px;
-    left: 1086.87px;
-    top: 110px;
+    width: 520px;
+    height: 100vh;
+    left: 1025px;
+    top: 125px;
+    background: url(../assets/Vector.svg);
+    background-repeat: no-repeat;
+    transform: rotate(9.27deg);
 
 }
 
@@ -124,7 +129,7 @@ main {
     top: 748px;
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media screen and (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
@@ -135,6 +140,9 @@ main {
     }
 
     header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         box-shadow: none;
         width: 100vw;
         align-items: center;
@@ -144,12 +152,23 @@ main {
     .cabecalho_titulo {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
         width: 100vw;
         height: 90;
         box-shadow: 0px 1px 8px rgba(0, 36, 36, 0.15);
         background: var(--cor-de-fundo);
-        margin-left: 0;
+        margin: 0;
+        padding: 0;
+  
+    }
+
+    .cabecalho_itens {
+        margin-top: 10px;
+    }
+
+    .cabecalho_nav {
+        margin-bottom: 10px;
     }
 
     main {
@@ -157,43 +176,43 @@ main {
         height: 100vh;
     }
 
-    .quadro_principal div {
-        width: 375px;
-    }
-
     .quadro_img--1 {
-      display: none;
-       
+       display: none;
+      
     }
 
+  
     .quadro_img--2 {
-       display: none;
+      display: none;  
     }
 
     .quadro_principal h1 {
         position: absolute;
-        width: 354px;
+        width: 100vw;
         height: 81px;
         top: 223px;
-        left: 11px;
-        font-weight: 700;
-        font-size: 20px;
+        left: 0;
+        font-weight: 600;
+        font-size: 15px;
         line-height: 27px;
         text-align: center;
+
     }
 
     .quadro_img--copo {
         display: none;
     }
 
+
     .quadro_button {
         position: absolute;
         width: 239px;
         height: 49px;
-        left: 68px;
+        left: 20%;
         top: 357px;
         background: #FCA60F;
         border-radius: 5px;
+      
     }
 
     .quadro_img--redes {
@@ -201,7 +220,8 @@ main {
         width: 105.42px;
         height: 23.86px;
         left: 135px;
-        top: 717px;        
+        top: 717px;
+        margin-bottom: 20px;        
     }
 
     .rodape {
