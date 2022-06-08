@@ -82,6 +82,11 @@ main {
     border: none;
 }
 
+.quadro_button:hover{
+    background-color: rgba(65, 51, 51, 0.747) ;
+    color: rgb(221, 221, 221);
+}
+
 .quadro_img--redes {
     position: absolute;
     width: 105.42px;
